@@ -48,15 +48,15 @@ Outputs:
 
 Folders:
 
-  - DFPT/SRC   Dual Fermion Perturbation Theory developed by Alexander Lichtenstein (UHH)
+  - DFPT/SRC :  Dual Fermion Perturbation Theory developed by Alexander Lichtenstein (UHH)
 	
-  -	QUEST/SRC  QUEST 1.4.9 source code developed by Richard Scalettar (UC Davis) - included for complitness 
+  -	QUEST/SRC : QUEST 1.4.9 source code developed by Richard Scalettar (UC Davis) - included for complitness 
  
-  -	DFPT/Hub4x4 Example of DFPT for doped Hubbard 4x4 lattice 
+  -	DFPT/Hub4x4 : Example of DFPT for doped Hubbard 4x4 lattice 
  
-  -	DFSC/Hub4x4 .. Example of DFSC for doped  Hubbard 4x4 lattice in d-wave SC field
+  -	DFSC/Hub4x4 : Example of DFSC for doped  Hubbard 4x4 lattice in d-wave SC field
  
-  -	DFPT/DOC_DF .. DF-QMC documentation.
+  -	DFPT/DOC_DF : DF-QMC documentation.
 
 =================================================
 
