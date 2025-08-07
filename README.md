@@ -11,7 +11,7 @@ Developed by:
 
  - Alexander Lichtenstein (alichten@physnet.uni-hamburg.de)
 
- - Edin Kapetanović     ) (ekapetan@physnet.uni-hamburg.de)
+ - Edin Kapetanović  (ekapetan@physnet.uni-hamburg.de)
 
 Based on the Auxiliary Fields lattice DQMC approach by Jorge E. Hirsch, PRB 31, 4403 (1985)
  
