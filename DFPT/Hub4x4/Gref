@@ -1,0 +1,18 @@
+ #set terminal qt 
+ set terminal x11
+ set title '                                        '
+ #set nokey
+ #set xrange [0.000000000 :  15.000000000 ]
+ #set yrange [-0.500000000 : 0.000000000 ]
+ plot 'GF_av_ref.txt' using 1 w lp
+ pause -1 'Press any key to continue'
+ plot 'GF_av_ref.txt' using 2 w lp
+ pause -1 'Press any key to continue'
+ plot 'GF_av_ref.txt' using 3 w lp
+ pause -1 'Press any key to continue'
+ plot 'GF_av_ref.txt' using 4 w lp
+ pause -1 'Press any key to continue'
+ plot 'GF_av_ref.txt' using 5 w lp
+ pause -1 'Press any key to continue'
+ plot 'GF_av_ref.txt' using 6 w lp
+ pause -1 'Press any key to continue'

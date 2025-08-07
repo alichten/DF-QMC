@@ -1,0 +1,20 @@
+#!/bin/sh --
+#SBATCH --partition=exfel
+#SBATCH --constraint=INTEL
+#
+#SBATCH --nodes=1 
+#
+#SBATCH --time=96:00:00
+#SBATCH --job-name=DFPT4x4
+
+#export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export LD_PRELOAD=""
+. /usr/share/Modules/init/sh
+
+# Number of processes per task
+NPROCS=1
+##############################################################
+date > o
+mpirun -np $NPROCS ../bin/build_ref in >>o
+date >> o
+

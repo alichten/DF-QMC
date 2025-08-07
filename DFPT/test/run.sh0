@@ -1,0 +1,32 @@
+#!/bin/sh --
+#SBATCH --partition=exfel
+#SBATCH --constraint=INTEL
+#
+#SBATCH --nodes=1 
+# #SBATCH --cpus-per-task=16
+##SBATCH -n 16
+#
+#SBATCH --time=96:00:00
+#SBATCH --job-name=DFPT4x4
+
+#export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+export LD_PRELOAD=""
+. /usr/share/Modules/init/sh
+#module purge
+#module load maxwell openmpi-intel/4.1.6
+
+# Number of processes per task
+NPROCS=1 
+echo $LD_LIBRARY_PATH
+echo "Heeelllllooooo" $(nproc)
+aprocs=$(nproc --all)
+echo "Total number of processors on $HOSTNAME is $aprocs "
+procs=$(( $aprocs / 2 ))
+echo " Number of phyiscal cores on $HOSTNAME $procs "
+echo " NPROCS on $HOSTNAME is $NPROCS "
+##############################################################
+date > o
+mpirun -np $NPROCS ../bin/build_ref in >>o
+date >> o
+
