@@ -13,6 +13,8 @@ Developed by:
 
  - Edin Kapetanović  (ekapetan@physnet.uni-hamburg.de)
 
+ - Reference: S. Iskakov, M. I. Katsnelson, and A. I. Lichtenstein, npj Comput. Mater. 10, 36 (2024).   
+
 Based on the Auxiliary Fields lattice DQMC approach by Jorge E. Hirsch, PRB 31, 4403 (1985)
  
 Fortran version: QUEST code 1.4.9 developed by
