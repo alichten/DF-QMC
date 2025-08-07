@@ -1,6 +1,6 @@
 *********************
 
-DF-QMC:  overcoming the "sign-problem" in a lattice Monte-Carlo 
+DF-QMC:  overcoming the "sign-problem" in a lattice Quantum Monte-Carlo 
 
 *********************
 
