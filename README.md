@@ -13,7 +13,9 @@ Developed by:
 
  - Edin Kapetanović  (ekapetan@physnet.uni-hamburg.de)
 
-Reference: S. Iskakov, M. I. Katsnelson, and A. I. Lichtenstein, npj Comput. Mater. 10, 36 (2024).   
+References: S. Iskakov, M. I. Katsnelson, and A. I. Lichtenstein, npj Comput: Mater. 10, 36 (2024) https://doi.org/10.1038/s41524-024-01221-w
+
+E. Stepanov, S. Iskakov, M. Katsnelson, and A. Lichtenstein: https://doi.org/10.48550/arXiv.2502.08635
 
 Based on the Auxiliary Fields lattice DQMC approach by Jorge E. Hirsch, PRB 31, 4403 (1985)
  
